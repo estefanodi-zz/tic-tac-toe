@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	
+<html lang="eng">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tris</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="tris.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+<script src="jquery-3.2.0.min.js"></script>
+</head>
+
+<body onload="start()">
+<div id="container">
+
+<div class="container-fluid header">
+<div class="top1" ><p id='top1'>player <span id='oneDis'>1</span></p></div>
+<div class="top2"><p id='top2'>player <span id='twoDis'>2</span></p></div>
+</div>
+
+<div class="container-fluid header">
+<div class="top3"><p><span id="points1">0</span></p></div>
+<div class="top4"><p><span id="points2">0</span></p></div>
+</div>
+
+
+
+
+
+
+<div id="containerMiddle">
+
+<div id='one' class="square quad" onclick="play(this)"></div>
+<div id='four' class="square quad" onclick="play(this)"></div>
+<div id='seven' class="square quad" onclick="play(this)"></div>
+
+<div id='two' class="square quad" onclick="play(this)"></div>
+<div id='five' class="square quad" onclick="play(this)"></div>
+<div id='eight' class="square quad" onclick="play(this)"></div>
+
+<div id='three' class="square quad" onclick="play(this)"></div>
+<div id='six' class="square quad" onclick="play(this)"></div>
+<div id='nine' class="square quad" onclick="play(this)"></div>
+
+</div>
+
+<div class="container-fluid footer">
+<div class="down"><p class="a" id='footer'>Player 1 choose <span class="span" onclick="choosed('x')">x</span>/<span class="span" onclick="choosed('o')">o</span></p></div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="tris.js"></script>
+</body>
+</html>
+
+
+
+
